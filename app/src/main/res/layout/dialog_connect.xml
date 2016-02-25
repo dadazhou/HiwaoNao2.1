@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:orientation="vertical" >
+
+
+    <!--   <LinearLayout
+          android:id="@+id/contentView"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" > -->
+
+    <EditText
+        android:id="@+id/ip_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left|center"
+        android:hint="ip" />
+    <EditText
+        android:id="@+id/port_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left|center"
+        android:hint="port" />
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/connect_btn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="连接"
+            />
+        <Button
+            android:id="@+id/quit_btn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="退出"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
